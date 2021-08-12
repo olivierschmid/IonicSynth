@@ -1,0 +1,7 @@
+{
+  "name": "synth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
