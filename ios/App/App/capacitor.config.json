@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "synth",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
