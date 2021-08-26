@@ -1,0 +1,44 @@
+@import '~swiper/swiper';
+
+:host {
+  display: block;
+  ion-col {
+    ion-button  {
+      height: 80px;
+    //  --background: #ff9933;
+      --background: linear-gradient(to top right, #f3f38e, #fa8702);
+      --background-activated: red;
+    }
+    ion-img{
+      height: 50px;
+    }
+  }
+  canvas{
+    padding: 20px;
+    height: 270px;
+    width: 100%
+  }
+  ion-footer{
+    position: absolute;
+    bottom: 0;
+  }
+  .attackRange{
+    --bar-background: red;
+  }
+  .releaseRange{
+    --bar-background: #66b3ff;
+  }
+  ion-item {
+
+  }
+  .gestureBox {
+    height: 40px;
+   // background: #8c8c8c;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    // border: 3px solid #4d4d4d;
+    border-radius: 12px;
+    background: linear-gradient(to top right, #f3f38e, #fa8702);
+  }
+}

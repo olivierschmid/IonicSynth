@@ -1,0 +1,30 @@
+@import '~swiper/swiper';
+
+:host {
+  display: block;
+  ion-col {
+    ion-button {
+      height: 30px;
+    //  --background: "danger";
+     // --background-activated: red;
+    }
+    ion-img{
+      height: 50px;
+    }
+  }
+  canvas{
+    padding: 20px;
+    height: 270px;
+    width: 100%
+  }
+  ion-footer{
+    position: absolute;
+    bottom: 0;
+  }
+  .attackRange{
+    --bar-background: #66b3ff;
+  }
+  .releaseRange{
+    --bar-background: red;
+  }
+}

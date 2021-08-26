@@ -1,17 +1,38 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      VU Meter
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+    <ion-list-header>
+      Settings
+    </ion-list-header>
+    <ion-item>
+      <ion-label>RMS</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+  </ion-list>
+
 </ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div style="text-align:center;">
+      <svg #rightMeter width="200" height="400">
+        <rect x="50" y="0" width="110" height="400" fill="#1D1D1C" rx="20" ry="20"/>
+        <rect x="70" y="0" width="70" height="0" fill="#77E15B"/>
+        <rect x="70" y="0" width="70" height="0" fill="yellow"/>
+        <rect x="70" y="0" width="70" height="0" fill="red"/>
+        <text x="0" y="395" fill="white">- Inf</text>
+        <text x="0" y="12" fill="white">0 dB</text>
+      </svg>
+    </div>
+    <div class="ion-padding"></div>
+
+  </ion-toolbar>
+</ion-footer>
